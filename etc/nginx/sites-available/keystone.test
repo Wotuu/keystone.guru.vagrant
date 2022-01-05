@@ -52,7 +52,7 @@ server {
         deny all;
     }
 
-    ssl_certificate     /etc/nginx/ssl/keystone.test.crt;
-    ssl_certificate_key /etc/nginx/ssl/keystone.test.key;
+    ssl_certificate     /etc/ssl/certs/keystone.test.crt;
+    ssl_certificate_key /etc/ssl/certs/keystone.test.key;
 }
 
